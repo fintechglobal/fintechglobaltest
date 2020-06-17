@@ -13,7 +13,7 @@
     })(window,document,'script','dataLayer','GTM-N8Q82NX');</script>
     <!-- End Google Tag Manager -->
 
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
     <title>WeTeach - A Course Platform for Developers, built by Developers</title>
     <style>
         .gradient {
@@ -36,7 +36,7 @@
         <!-- Nav Bar -->
         <nav class="font-sans text-center flex justify-between my-4 mx-auto container overflow-hidden mt-8 z-50 relative px-5">
             <a href="/" class="toggleColour text-gray-700 no-underline hover:no-underline font-bold text-2xl lg:text-4xl h-8 pb-1 mx-auto sm:mx-0">
-                <img src="./logo.png" class="h-full mt-1" alt="We Teach Logo">
+                <img src="/img/logo.png" class="h-full mt-1" alt="We Teach Logo">
             </a>
             <ul class="text-sm text-grey-dark list-reset flex items-center">
                 <button class="text-white ml-4 py-2 px-6 rounded bg-gray-800 font-bold hidden sm:block bg-indigo-600" id="signup_btn">Signup to Get Notified</button>
@@ -60,7 +60,7 @@
             <div class="mt-8 flex text-sm border border-gray-200 rounded-full p-2 text-pink-500 text-sm mx-auto lg:mx-0 mb-12 lg:mb-0"><span class="bg-pink-500 text-white rounded-full px-3 h-6 flex items-center hidden xl:inline">Signup</span> <span class="px-2 flex items-center"><span class="hidden sm:inline">for progress updates and</span> gain early access when we release!</span></div>
         </div>
         <div class="flex-1 hidden items-start flex-col justify-center lg:flex relative pl-16">
-            <img src="./hero.jpg" class="w-full object-cover relative bottom-0 z-10 mt-32" alt="We Teach Hero Image">
+            <img src="/img/hero.jpg" class="w-full object-cover relative bottom-0 z-10 mt-32" alt="We Teach Hero Image">
         </div>
 
     </section>
@@ -75,7 +75,7 @@
 
             <div class="block md:flex flex-wrap mb-16 bg-white rounded shadow overflow-hidden">
                 <div class="w-full md:w-1/2">
-                    <img src="./stripe.png" class="w-full">
+                    <img src="/img/stripe.png" class="w-full">
                 </div>
                 <div class="w-full md:w-1/2 py-12 md:py-0 flex flex-col justify-center px-8 sm:px-16">
                     <h3 class="text-xl lg:text-3xl font-bold leading-none mb-3 mt-16 text-gray-700 -mt-1">Integrate your own payments</h3>
@@ -91,7 +91,7 @@
                     <p class="text-gray-600 text-xs">Display code examples and allow users to download files. WeTeach is focused on developers teaching other people to become developers.</p>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <img src="./screenshot.png" class="w-full">
+                    <img src="/img/screenshot.png" class="w-full">
                 </div>
 
             </div>
